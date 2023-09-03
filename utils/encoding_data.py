@@ -1,5 +1,7 @@
 def encoding_data(data):
-
+    '''Передаю аргументом Счета или карты.
+    Делаю 3 проверки по длинне аргумента и вхождений подстрок.
+    Спличу на список, редактирую и склеиваю срезы'''
     spited_data = data.split()
     if len(spited_data) == 2 and "Счет" not in data:
         data_1 = spited_data[0]

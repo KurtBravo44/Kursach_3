@@ -20,6 +20,7 @@ def output_of_operations(file, i):
 
     coding_number_to = encoding_data.encoding_data(operation_to)
 
+
     if 'from' in file[i]:
 
         operation_from = file[i]['from']
@@ -33,4 +34,9 @@ def output_of_operations(file, i):
         return (f'{operation_date[:10].replace("-", ".")} {type_operation}\n'
                 f'{coding_number_to}\n'
                 f'{operation_sum} {operation_currency}')
+
+
+
+
+
 

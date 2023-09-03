@@ -20,3 +20,5 @@ def encoding_data(data):
         covered = data_1 + " " + data_2 + " " + data_3[0:6] + "******" + data_3[12:]
         return covered
 
+
+

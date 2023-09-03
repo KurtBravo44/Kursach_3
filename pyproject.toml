@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "kursach-3"
+version = "0.1.0"
+description = ""
+authors = ["Kurt Bravo <kurtbravo2344@gmail.ru>"]
+readme = "README.md"
+packages = [{include = "kursach_3"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.4.1"
+pytest-cov = "^4.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.1"
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
